@@ -1,0 +1,70 @@
+body {
+  background-color: #f3ccff;
+}
+
+#root {
+  width: 400px;
+  height: min-content;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(4, 4, 4, 0.5);
+  padding: 2rem;
+  text-align: center;
+  background-color: #fcfcd7;
+
+  .formCity {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-content: space-between;
+    .inputFormCity-text {
+      //  background-color: rgb(187, 187, 121);
+      background-color: transparent;
+      border: 1px solid rgb(186, 170, 250);
+      // border-color: rgb(186, 170, 250);
+      border-radius: 4px;
+      box-shadow: -1px 0 6px rgba(141, 93, 246, 0.5);
+      &::placeholder {
+        color: rgb(103, 79, 174, 0.5);
+      }
+      &:hover {
+        border-color: #a555ec;
+      }
+      &:focus {
+        background-color: transparent;
+        border: 1px solid rgb(186, 170, 250);
+        box-shadow: -1px 0 6px rgba(141, 93, 246, 0.5);
+        color: #5f03b0;
+        // background-color: aqua;
+        // border: none;
+        // border-color: #a555ec;
+      }
+    }
+    .inputFormCity-button {
+      background-color: rgb(186, 170, 250);
+      color: #fcfcd7;
+      margin-left: 5px;
+      padding: 4px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(173, 154, 248);
+        box-shadow: -1px 0 6px rgba(141, 93, 246, 0.5);
+      }
+    }
+
+  }
+  .uiShowCapital {
+    color: #5f03b0;
+  }
+  .uiShowCountry {
+    color: #5f03b0;
+  }
+  .uiShowTemp {
+    color: #5f03b0;
+  }
+  .uiShowIcon {
+    color: #5f03b0;
+  }
+}

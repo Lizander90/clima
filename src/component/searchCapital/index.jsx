@@ -9,9 +9,10 @@ const SearchCapital = ({handleCapital}) => {
 
     return <>
         <form className='formCity' onSubmit={handleFormSubmit}>
-            <label> Ciudad:
+            <label> 
+                {/* Ciudad: */}
                 <input type='text' name='inputFormCity-text' className='inputText inputFormCity-text' placeholder='Capital  ej:"London"' />
-                <input type='submit' name='inputFormCity-button' className='inputButton inputFormCity-button' value='buscar' />
+                <input type='submit' name='inputFormCity-button' className='inputButton inputFormCity-button' value=' Buscar ' />
             </label>
         </form>
     </>

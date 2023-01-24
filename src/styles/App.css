@@ -1,0 +1,71 @@
+body {
+  background-color: #f3ccff;
+}
+
+#root {
+  width: 400px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(4, 4, 4, 0.5);
+  padding: 2rem;
+  text-align: center;
+  background-color: #fcfcd7;
+}
+#root .formCity {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-content: space-between;
+}
+#root .formCity .inputFormCity-text {
+  background-color: transparent;
+  border: 1px solid rgb(186, 170, 250);
+  border-radius: 4px;
+  box-shadow: -1px 0 6px rgba(141, 93, 246, 0.5);
+}
+#root .formCity .inputFormCity-text::-moz-placeholder {
+  color: rgba(103, 79, 174, 0.5);
+}
+#root .formCity .inputFormCity-text:-ms-input-placeholder {
+  color: rgba(103, 79, 174, 0.5);
+}
+#root .formCity .inputFormCity-text::placeholder {
+  color: rgba(103, 79, 174, 0.5);
+}
+#root .formCity .inputFormCity-text:hover {
+  border-color: #a555ec;
+}
+#root .formCity .inputFormCity-text:focus {
+  background-color: transparent;
+  border: 1px solid rgb(186, 170, 250);
+  box-shadow: -1px 0 6px rgba(141, 93, 246, 0.5);
+  color: #5f03b0;
+}
+#root .formCity .inputFormCity-button {
+  background-color: rgb(186, 170, 250);
+  color: #fcfcd7;
+  margin-left: 5px;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#root .formCity .inputFormCity-button:hover {
+  background-color: rgb(173, 154, 248);
+  box-shadow: -1px 0 6px rgba(141, 93, 246, 0.5);
+}
+#root .uiShowCapital {
+  color: #5f03b0;
+}
+#root .uiShowCountry {
+  color: #5f03b0;
+}
+#root .uiShowTemp {
+  color: #5f03b0;
+}
+#root .uiShowIcon {
+  color: #5f03b0;
+}/*# sourceMappingURL=App.css.map */
